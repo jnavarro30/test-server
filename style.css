@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .container {
+    height: 100%;
+    border: 2px solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+input {
+    border: 2px solid yellow;
+}
